@@ -1,0 +1,338 @@
+body{
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2, h6, h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.9;
+    margin: 0px;
+    padding: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+
+
+ol,ul{
+    list-style: none;
+}
+
+#banner{
+     background: url(../images/front-header.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+.banner_overlay{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to right, rgba(252, 227, 138, 0.8), rgba(243, 131, 129, 0.8));
+}
+.container-fluid li{
+    color: white
+}
+.banner_text span{
+    font-weight: 400;
+    font-size: 72px;
+    color: white
+
+}
+.banner_text h3{
+    font-weight: 800;
+    font-size: 110px;
+    font-display: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 44px;
+    padding-bottom: 126px;
+}
+.banner_text h3::after{
+    width: 87px;
+    height: 3px;
+    background: white;
+    content: '';
+    position:absolute;
+    left: 910px;
+    bottom: 200px;
+ }
+
+ .banner_text h3::after{
+    width: 65px;
+    height: 3px;
+    background: white;
+    content: '';
+    position:absolute;
+    left: 920px;
+    bottom: 350px;
+ }
+
+ .navbar_main {
+    padding: 20px 200px;
+    
+  }
+  
+  .navbar_main a {
+    border-bottom: 1px solid rgba(252, 227, 138, 0);
+    transition: all 100ms ease-in-out;
+  }
+  
+  .navbar_main a:hover {
+    color: #fce38a;
+    border-bottom: 1px solid #fce38a;
+  }
+  
+  .navbar_logo_name {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .navbar_items {
+    font-size: 13px;
+    font-family: "Montserrat";
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  .navbar_items li {
+    margin: 5px 10px;
+  }
+  
+
+@media (max-width: 1199px) {
+    .about-us {
+      height: 600px;
+    }
+  }
+
+#about-us{
+    padding-top: 20px;
+}
+.about_text span{
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    padding-top: 44px;
+}
+.about_text h3{
+    font-weight: 800;
+    font-size: 30px;
+    font-display: center;
+    color: black;
+    text-transform: uppercase;
+}
+.about_text h3::after{
+    width: 65px;
+    height: 3px;
+    background: #f38181;
+    content: '';
+    position:absolute;
+    left: 910px;
+    bottom: 30px;
+}
+.about_text p{
+    font-display: center;
+    padding: 40px;
+}
+.about-pic{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.second_section_numbers {
+    margin-top: 60px;
+    background-color: #95e1d3;
+  }
+  
+  .item_numbers {
+    border-right: 1px solid #b5eae0;
+  }
+  
+  .item_numbers:last-child {
+    border: none;
+  }
+.second_section_numbers_header {
+    padding-top: 35px;
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .second_section_numbers_paragraph {
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  @media (max-width: 1199px) {
+    #amazing-services {
+      height: 600px;
+      padding-left: 200px;
+    }
+  }
+
+#amazing-services span{
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    padding-top: 44px;
+  }
+ #amazing-services h3{
+    font-weight: 800;
+    font-size: 30px;
+    font-display: center;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  #amazing-services h3::after{
+    width: 65px;
+    height: 3px;
+    background: #f38181;
+    content: '';
+    position: absolute;
+    left: 890px;
+    bottom: -690px;
+  }
+
+  .third_section {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 250px;
+    height: 70vh;
+    background-color: white;
+    color: black;
+  }
+  
+  .third_section_first_row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .fifth_section {
+    padding-top: 20px;
+    position: relative;
+    height: auto;
+    background-color: white;
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 1199px) {
+    #what-we-do {
+      height: 900px;
+      padding-left: 200px;
+    }
+  }
+
+  #what-we-do span{
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    padding-top: 44px;
+  }
+  #what-we-do h3{
+    font-weight: 800;
+    font-size: 30px;
+    font-display: center;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  #what-we-do h3::after{
+    width: 65px;
+    height: 3px;
+    background: #f38181;
+    content: '';
+    position: absolute;
+    left: 910px;
+    bottom: 500px;
+  }
+  .accordion-button img{
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 1199px) {
+    .our-team {
+      height: 900px;
+      padding-left: 200px;
+    }
+  }
+
+  #our-team{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.team_text span{
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    padding-top: 44px;
+}
+.team_text h3{
+    font-weight: 800;
+    font-size: 30px;
+    font-display: center;
+    color: black;
+    text-transform: uppercase;
+}
+.team_text h3::after{
+    width: 65px;
+    height: 3px;
+    background: #f38181;
+    content: '';
+    position:absolute;
+    left: 910px;
+    bottom: -2020px;
+}
+.team_text p{
+    font-display: center;
+    padding: 40px;
+}
+.team-pic{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.footer {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    padding-top: 20px;
+}
+.azizul {
+    color: #f38181;
+}
+
+.sajal {
+    color: #95e1d3;
+}
